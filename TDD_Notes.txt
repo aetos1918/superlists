@@ -1,0 +1,29 @@
+# git rm --cached <file> ... -> To unstage
+
+# self.fail just fails no matter what, 
+
+# __name__ == "__main__" -> that's how a python script checks if it's been executed from the command line, rather than just imported by another script
+
+# Django workflow goes
+	1) An HTTP request comes in for a particular URL.
+	2) Django uses some rules to decide which view fuction should deal with the request.
+	3) The view function process the request and return an HTTP response.
+
+# Django render function - It takes the request as 1st parameter and the name of the template to render.
+
+# from django.template.loader import render_to_string
+
+	expected_html = render_to_string('home.html')
+	self.assertEqual(html, expected_html)
+
+# self.asserttemplateUsed(response, 'wrong.html')
+
+# from django.test import LiveServerTestCase
+
+# Unexpected NoSuchElementException and StaleElementException errors are teh usual symptoms of forgetting an explicit wait.
+
+# REST - Representational State Transfer
+
+
+
+
